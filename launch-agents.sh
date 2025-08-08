@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 🚀 AIエージェント一括起動スクリプト
-# claude --dangerously-skip-permissions フラグ付きで全エージェントを起動
+# gemini  全エージェントを起動
 
 set -e  # エラー時に停止
 
@@ -50,7 +50,7 @@ launch_agent() {
     local name=$2
     
     log_info "$name を起動中..."
-    tmux send-keys -t "$target" 'claude --dangerously-skip-permissions' C-m
+    tmux send-keys -t "$target" 'gemini' C-m
     sleep 0.5
 }
 
