@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(*agent-send.sh*)",
+      "Shell(./agent-send.sh*)",
+      "Shell(mkdir*)",
+      "Shell(touch*)",
+      "Shell(echo*)",
+      "Shell(if*)",
+      "Shell([ -f ./tmp/worker*_done.txt ]*)",
+      "Shell(*worker*_done.txt*)",
+      "Shell(then)",
+      "Shell(else)",
+      "Shell(grep*)",
+      "Shell(chmod*)",
+      "Shell(date*)",
+      "Shell(sleep*)",
+      "Shell(tmux*)",
+      "Bash(*agent-send.sh*)",
+      "Bash(./agent-send.sh*)",
+      "Bash(mkdir*)",
+      "Bash(touch*)",
+      "Bash(echo*)",
+      "Bash(if*)",
+      "Bash([ -f ./tmp/worker*_done.txt ]*)",
+      "Bash(*worker*_done.txt*)",
+      "Bash(then)",
+      "Bash(else)",
+      "Bash(grep*)",
+      "Bash(chmod*)",
+      "Bash(date*)",
+      "Bash(sleep*)",
+      "Bash(tmux*)"
+    ],
+    "deny": []
+  }
+}
